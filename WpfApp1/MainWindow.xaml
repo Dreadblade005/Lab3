@@ -7,11 +7,15 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Left" Name="fntextbox" Height="23" Margin="222,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox HorizontalAlignment="Left" Name="lntextbox" Height="23" Margin="222,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button Content="PrintPigLatin&#xD;&#xA;" HorizontalAlignment="Left" Margin="156,179,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Height="26"/>
-        <Label Content="First Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="102,89,0,0" Width="120"/>
-        <Label Content="Last Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="102,120,0,0" Width="120"/>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="27*"/>
+            <ColumnDefinition Width="370*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox HorizontalAlignment="Left" Name="fntextbox" Height="23" Margin="168,89,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <TextBox HorizontalAlignment="Left" Name="lntextbox" Height="23" Margin="168,123,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Grid.Column="1"/>
+        <Button Content="PrintPigLatin&#xD;&#xA;" HorizontalAlignment="Left" Margin="102,179,0,0" VerticalAlignment="Top" Width="100" Click="Button_Click" Height="26" Grid.Column="1"/>
+        <Label Content="First Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,89,0,0" Width="120" Grid.Column="1"/>
+        <Label Content="Last Name" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="48,120,0,0" Width="120" Grid.Column="1"/>
 
     </Grid>
 </Window>

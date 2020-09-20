@@ -1,4 +1,20 @@
-﻿using System;
+﻿/// Chapter No. 3 Lab 3
+/// File Name: Pig latin input
+/// @author: Dakota Durst
+/// Date: september 14, 2020
+///
+/// Problem Statement: 
+/// Ask the user to enter first and last name in popup window. After user has inputed name and pressed convert to pig latin display popup with translated name
+///
+///
+/// Overall Plan:
+/// 1) create visual display of popup with first, last, and translate button
+/// 2) assign variables
+/// 3) change anme to all lower case
+/// 4) set variable of pig latin based on user inputs
+/// 5) display popup with translated nane
+///
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
